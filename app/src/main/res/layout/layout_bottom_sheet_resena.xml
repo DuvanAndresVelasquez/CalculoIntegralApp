@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheetContainer_resena"
+    android:orientation="vertical"
+    android:background="@drawable/drawable_sheet_background_resena"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_opensheet"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/title_bottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="¿Te gusta cálculo integral?"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/msg_bottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Dinos que te ha parecido nuestra aplicación, ayudaras a otros usuarios a entender de que trata, tal vez tengas alguna sugerencia."
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textColor="#ffffff"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:numStars="5"
+        android:rating="5"
+        />
+    <Button
+        android:id="@+id/button_calificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/botonprogreso"
+        android:layout_marginBottom="50dp"
+        android:text="Calificar"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+         />
+
+</LinearLayout>

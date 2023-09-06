@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907300811773",
+    "project_id": "integral-ac7c5",
+    "storage_bucket": "integral-ac7c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907300811773:android:ef0ff8954791de5d395f94",
+        "android_client_info": {
+          "package_name": "com.smeagtechnology.integral"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907300811773-1u534ccf9d4r5u81t7c1fv58a4t9bd2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxQW4L6gO9bJl3Xtgr_lGM_zeJavcoUTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907300811773-1u534ccf9d4r5u81t7c1fv58a4t9bd2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

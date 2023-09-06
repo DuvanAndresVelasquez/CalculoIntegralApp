@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:backgroundTint="#007A0D0D">
+        <RelativeLayout
+            android:id="@+id/container_parrafo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#007A0D0D">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#007A0D0D"
+                android:paddingBottom="30dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/tv2parrafo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contenido del parrafo"
+                    android:paddingStart="10dp"
+                    android:fontFamily="casual"
+                    android:paddingTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/ecuation"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:padding="10dp"
+                    android:background="@drawable/borde_parrafos"
+                    />
+
+                <TextView
+                    android:id="@+id/ver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VER ECUACIÓN"
+                    android:textAlignment="center"
+                    android:textColor="#428F46"
+                    android:visibility="gone"/>
+
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView_p"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    app:adSize="BANNER"
+                    android:layout_marginTop="30dp"
+
+                    app:adUnitId="ca-app-pub-1778393545986901/2656346441"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

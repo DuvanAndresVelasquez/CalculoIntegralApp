@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheetContainer_compartir"
+    android:orientation="vertical"
+    android:background="@drawable/drawable_sheet_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_opensheet"
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:id="@+id/title_bottomSheet_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="¿Nos ayudarías a compartir esta app?"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/msg_bottomSheet_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Puedes ayudar a tu amigo que le va mal en el cálculo integral, comparte esta app para que las demás personas puedan acceder a ella."
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:id="@+id/text_msg_share"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje  (opcional)"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Por defecto: (Hola, mira encontre una app para aprender cálculo integral, es muy buena, te la recomiendo.)"
+        android:textSize="10sp"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/button_compartir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/botonprogreso"
+        android:layout_marginBottom="50dp"
+        android:text="Compartir"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+         />
+
+</LinearLayout>

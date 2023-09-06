@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheetContainer_ayuda"
+    android:orientation="vertical"
+    android:background="@drawable/drawable_sheet_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_opensheet"
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:id="@+id/title_bottomSheet_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Podemos ayudarte con tus talleres."
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/msg_bottomSheet_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Para la solución de un taller, debes comprar una moneda integral, la cual te servira para canjear la solución, presiona más info para obtener la información detallada de esta función."
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/button_acceder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/botonsheetayuda"
+        android:text="Quiero acceder"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:textColor="#FFCA2D"
+         />
+
+    <Button
+        android:id="@+id/button_info_ayuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/botongoogle"
+        android:text="Más info"
+        android:padding="10dp"
+        android:textColor="#FFCA2D"
+        android:layout_marginBottom="50dp"
+        />
+
+</LinearLayout>
